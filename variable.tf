@@ -3,6 +3,11 @@ variable "project_id" {
   description = "The Project ID"
   default = "fiery-outpost-381205"
 }
+variable "region" {
+  type        = string
+  description = "The Project ID"
+  default = "us-central1"
+}
 
 variable "network_name" {
   type        = string
